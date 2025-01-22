@@ -1,7 +1,7 @@
-# CLIGuy README
+# SPONGEBOB README
 
 ## Introduction
-**CLIGuy** is a simple Command Line Interface (CLI) tool that provides various functionalities for managing files and directories, performing calculations, and more. The application includes helpful commands like `ls`, `pwd`, `mkdir`, `rmdir`, and some fun extras to enhance the command-line experience.
+**SPONGEBOB** is a simple Command Line Interface (CLI) tool that provides various functionalities for managing files and directories, performing calculations, and more. The application includes helpful commands like `ls`, `pwd`, `mkdir`, `rmdir`, and some fun extras to enhance the command-line experience.
 
 ---
 
@@ -12,7 +12,7 @@
    - **Description**: Lists all files and directories in the current directory.
    - **Usage**:  
      ```
-     CLIGuy> ls
+     SPONGEBOB> ls
      ```
    - **Output**: Displays directories in blue and files in cyan.
 
@@ -20,60 +20,60 @@
    - **Description**: Displays the current working directory.
    - **Usage**:  
      ```
-     CLIGuy> pwd
+     SPONGEBOB> pwd
      ```
 
 3. **`cd <path>`**
    - **Description**: Changes the current directory to the specified path.
    - **Usage**:  
      ```
-     CLIGuy> cd path/to/directory
+     SPONGEBOB> cd path/to/directory
      ```
    - **Example**:  
      ```
-     CLIGuy> cd ..
+     SPONGEBOB> cd ..
      ```
 
 4. **`mkdir <directory name>`**
    - **Description**: Creates a new directory with the specified name.
    - **Usage**:  
      ```
-     CLIGuy> mkdir new_folder
+     SPONGEBOB> mkdir new_folder
      ```
 
 5. **`rmdir <directory name>`**
    - **Description**: Removes an empty directory.
    - **Usage**:  
      ```
-     CLIGuy> rmdir folder_to_remove
+     SPONGEBOB> rmdir folder_to_remove
      ```
 
 6. **`touch <file name>`**
    - **Description**: Creates an empty file with the specified name.
    - **Usage**:  
      ```
-     CLIGuy> touch file.txt
+     SPONGEBOB> touch file.txt
      ```
 
 7. **`rm <file name>`**
    - **Description**: Deletes a file. Critical files like `CLIGuy.py` are protected and cannot be removed.
    - **Usage**:  
      ```
-     CLIGuy> rm file_to_delete.txt
+     SPONGEBOB> rm file_to_delete.txt
      ```
 
 8. **`cp <src> <target destination>`**
    - **Description**: Copies a file or directory to the target destination.
    - **Usage**:  
      ```
-     CLIGuy> cp source.txt destination_folder/
+     SPONGEBOB> cp source.txt destination_folder/
      ```
 
 9. **`mv <src> <target destination>`**
    - **Description**: Moves or renames a file or directory.
    - **Usage**:  
      ```
-     CLIGuy> mv file.txt new_folder/
+     SPONGEBOB> mv file.txt new_folder/
      ```
 
 ### Additional Utilities
@@ -81,42 +81,42 @@
    - **Description**: Displays the directory structure in a tree-like format.
    - **Usage**:  
      ```
-     CLIGuy> tree
+     SPONGEBOB> tree
      ```
 
 2. **`size <path>`**
    - **Description**: Displays the size of a file or directory in KB.
    - **Usage**:  
      ```
-     CLIGuy> size path/to/file_or_folder
+     SPONGEBOB> size path/to/file_or_folder
      ```
 
 3. **`calc <expression>`**
    - **Description**: Evaluates a mathematical expression and prints the result.
    - **Usage**:  
      ```
-     CLIGuy> calc 2 + 2 * (3 - 1)
+     SPONGEBOB> calc 20 + 80 * (4 - 1)
      ```
 
 4. **`clear`**
    - **Description**: Clears the terminal screen.
    - **Usage**:  
      ```
-     CLIGuy> clear
+     SPONGEBOB> clear
      ```
 
 5. **`help`**
    - **Description**: Displays a list of available commands and their descriptions.
    - **Usage**:  
      ```
-     CLIGuy> help
+     SPONGEBOB> help
      ```
 
 6. **`extra`**
    - **Description**: Lists additional commands and their functions.
    - **Usage**:  
      ```
-     CLIGuy> extra
+     SPONGEBOB> extra
      ```
 
 ---
@@ -126,14 +126,14 @@
    - **Description**: Displays a random programming joke.
    - **Usage**:  
      ```
-     CLIGuy> joke
+     SPONGEBOB> joke
      ```
 
-2. **`gogeta`**
+2. **`spongebob`**
    - **Description**: A fun Easter egg inspired by the famous anime character.
    - **Usage**:  
      ```
-     CLIGuy> gogeta
+     SPONGEBOB> spongebob
      ```
 
 ---
@@ -143,7 +143,7 @@
    - **Description**: Exits the CLI with a friendly farewell message.
    - **Usage**:  
      ```
-     CLIGuy> exit
+     SPONGEBOB> exit
      ```
 
 ---
